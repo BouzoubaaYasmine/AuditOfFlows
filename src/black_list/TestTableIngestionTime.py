@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-from src.black_list.Newfile_count_time import table
+from src.data.Newfile_count_time import table
 
 class TestTableIngestionTime(unittest.TestCase):
     def test_ingestion_time(self):
